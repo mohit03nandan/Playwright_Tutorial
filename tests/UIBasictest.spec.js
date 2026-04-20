@@ -19,5 +19,7 @@ test('first playwright test', async({browser}) => {
 
 // if u dont have speceial thing to inject in the browser context then you can directly use page fixture instead of browser fixture
 test('second playwright test', async({page}) => {
-  await page.goto('https://www.google.com/');
+  await page.goto('https://www.yahoo.com/');
 })
+
+
